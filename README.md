@@ -22,3 +22,13 @@ How To & What To
 6.- Download ipa, send it to your device and try out
 
 7.- Enjoy
+
+
+App Config Settings
+===================
+
+There are 2 ways:
+
+	1.- Via Phone Gap Build App Settings
+
+	2.- Using a config.xml file (https://build.phonegap.com/docs/config-xml && https://github.com/phonegap/phonegap-start/blob/master/www/config.xml)
