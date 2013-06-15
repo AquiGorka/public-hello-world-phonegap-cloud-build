@@ -11,8 +11,17 @@
 	<!-- PhoneGap API - needed to use any other script below -->
 	<script src="phonegap.js"></script>
 	<!-- <script src="js/"></script> -->
+	<!-- device ready :: you can unhook this by omitting the body onload function -->
+	<script>
+		function onLoad() {
+	        document.addEventListener("deviceready", onDeviceReady, false);
+	    }
+	    function onDeviceReady() {
+	        alert('Device Ready')
+	    }
+    </script>
 </head>
-<body>
+<body onload="onLoad()">
 	Index.html
 </body>
 </html>
