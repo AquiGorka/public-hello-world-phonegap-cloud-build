@@ -6,13 +6,11 @@
 	<title>
 		Simple Hello world (HTML5 + Javascript) examples that use PhoneGap's API and PhoneGap Cloud Build to create iOS Apps
 	</title>
-	<!-- Simple Boilerplate Build use no scripts -->
-	<!-- Uncomment accordingly -->
-	<!-- PhoneGap API - needed to use any other script below -->
+	<!-- PhoneGap API -->
 	<script src="phonegap.js"></script>
-	<!-- -->
+	<!-- Example Scripts -->
 	<!-- <script src="js/"></script> -->
-	<!-- device ready :: you can hook/unhook this with the body onload function -->
+	<!-- device ready -->
 	<script>
 		function onLoad() {
 	        document.addEventListener("deviceready", onDeviceReady, false);
@@ -23,6 +21,7 @@
 	        setTimeout(function() {
 			    navigator.splashscreen.hide();
 			}, 2000);
+			<!-- Comment/Uncomment accordingly -->
 	    }
     </script>
 </head>
