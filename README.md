@@ -34,3 +34,9 @@ There are 2 ways:
 	2.- Using a config.xml file (https://build.phonegap.com/docs/config-xml && https://github.com/phonegap/phonegap-start/blob/master/www/config.xml)
 
 	2.1.- Don't forget to check out the current version of the Phone Gap Api (their xml file uses an outdated version)
+
+
+Other Resources
+===============
+
+https://github.com/phonegap/phonegap/wiki
