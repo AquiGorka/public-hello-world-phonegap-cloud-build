@@ -62,10 +62,16 @@
     <icon src="images/icon/icon-1024.png"            gap:platform="ios"        width="1024" height="1024" />
     
     <!-- Define app splash screen for each platform. -->
-    <gap:splash src="images/screen/ios/screen-iphone-portrait.png"    gap:platform="ios"     width="320" height="480" />
-    <gap:splash src="images/screen/ios/screen-iphone-portrait-2x.png" gap:platform="ios"     width="640" height="960" />
-    <gap:splash src="images/screen/ios/screen-ipad-portrait.png"      gap:platform="ios"     width="768" height="1024" />
-    <gap:splash src="images/screen/ios/screen-ipad-landscape.png"     gap:platform="ios"     width="1024" height="768" />
+    <gap:splash src="images/splash/iphone-portrait.png"    gap:platform="ios"     width="320" height="480" />
+    <gap:splash src="images/splash/iphone-portrait-2x.png" gap:platform="ios"     width="640" height="960" />
+    <gap:splash src="images/splash/iphone-landscape.png"    gap:platform="ios"     width="480" height="320" />
+    <gap:splash src="images/splash/iphone-landscape-2x.png"    gap:platform="ios"     width="960" height="640" />
+    <gap:splash src="images/splash/iphone-5-portrait.png"    gap:platform="ios"     width="640" height="1136" />
+    <gap:splash src="images/splash/iphone-5-landscape.png" gap:platform="ios"     width="1136" height="640" />
+    <gap:splash src="images/splash/ipad-portrait.png"      gap:platform="ios"     width="768" height="1004" />
+    <gap:splash src="images/splash/ipad-landscape.png"     gap:platform="ios"     width="1024" height="748" />
+    <gap:splash src="images/splash/ipad-portrait-2x.png"      gap:platform="ios"     width="1536" height="2008" />
+    <gap:splash src="images/splash/ipad-landscape-2x.png"     gap:platform="ios"     width="2048" height="1496" />
     
     <!--
         Define access to external domains.
