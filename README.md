@@ -40,3 +40,9 @@ Other Resources
 ===============
 
 https://github.com/phonegap/phonegap/wiki
+
+
+Notes
+=====
+
+According to Apple's application guidelines, a tablet (iPad) application should not hide the status bar while a handheld (iPhone) application should hide status bar.
