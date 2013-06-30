@@ -18,12 +18,15 @@
 	        document.addEventListener("deviceready", onDeviceReady, false);
 	    }
 	    function onDeviceReady() {
-	        alert('Device Ready')
+	        alert('Device Ready');
+	        // hide splash screen
+	        setTimeout(function() {
+			    navigator.splashscreen.hide();
+			}, 2000);
 	    }
     </script>
 </head>
-<!--<body onload="onLoad()">-->
-<body>
+<body onload="onLoad()">
 	Index.html
 </body>
 </html>
